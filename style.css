@@ -1,0 +1,22 @@
+#chessboard {
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 200px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+}
+
+.whitebox{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.blackbox{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
